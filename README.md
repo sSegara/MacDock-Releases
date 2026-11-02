@@ -12,4 +12,6 @@ Requires an Apple silicon Mac running macOS 26 or later. Copy MacDock into Appli
 
 Settings and profiles are retained during updates. You can disable automatic version checks in MacDock's Updates page. Installation begins only after you choose Update.
 
-Versions older than 1.6.3 need one manual installation to gain direct updates. This preview is locally signed and is not notarized; macOS may require manual approval on the first launch. Future updates verify the existing MacDock signing identity before replacing the app.
+Users of 1.6.3 or 1.6.4 should install the 1.6.5 DMG once: those versions use an older installer helper that can incorrectly roll back a running update. Earlier versions also need this manual installation. From 1.6.5 onward, direct updates use the corrected helper.
+
+MacDock is locally signed and is not notarized; macOS may require manual approval on the first launch. Future updates verify the existing MacDock signing identity before replacing the app.
