@@ -11,7 +11,7 @@ This public repository contains downloads and release notes. Application source 
 | Platform | Download | Requirements |
 | --- | --- | --- |
 | macOS | [WolfDock 1.6.9](https://github.com/sSegara/MacDock-Releases/releases/tag/v1.6.9) | Apple silicon, macOS 26 or later |
-| Windows preview | [WolfDock 0.1.0 for Windows](https://github.com/sSegara/MacDock-Releases/releases/tag/windows-v0.1.0) | Windows 10 22H2 / Windows 11, x64 |
+| Windows preview | [WolfDock 0.1.1 for Windows](https://github.com/sSegara/MacDock-Releases/releases/tag/windows-v0.1.1) | Windows 10 22H2 / Windows 11, x64 |
 
 [Latest stable Mac release](https://github.com/sSegara/MacDock-Releases/releases/latest) · [All releases](https://github.com/sSegara/MacDock-Releases/releases)
 
@@ -27,13 +27,17 @@ Mac builds are locally signed and are not notarized. macOS may require **System 
 
 ## Windows preview
 
-Extract **WolfDock-Windows-0.1.0-x64.zip** and run **WolfDock.exe**. The .NET runtime is included; administrator access is not requested. Closing the main window keeps WolfDock in the system tray. Use the wolf tray menu to reopen it or quit.
+Extract **WolfDock-Windows-0.1.1-x64.zip** and run **WolfDock.exe**. The .NET runtime is included; administrator access is not requested. Closing the main window keeps WolfDock in the system tray. Click the wolf for the blue quick panel with CPU/RAM and favorites; choose **Buka WolfDock** to restore the main window. Right-click retains the native menu. To update an older preview, exit it through its tray menu before launching the new version; the saved profile is retained.
 
 Included: live CPU/RAM and volume usage, Keep Awake, keyboard window snapping, music/video Dynamic Island, countdown, notes, local clipboard history, tray favorites, folder analysis and reviewed duplicate cleanup through Recycle Bin. Settings are stored separately at `%LOCALAPPDATA%\WolfDock\settings.json`.
 
+The 0.1.1 update also removes repeated interface text, restores minimized windows and saves pending note edits before searching.
+
 ![WolfDock Windows interface rendered in headless UI tests](assets/windows-preview.png)
 
-This is an early preview: 174 source/headless checks pass, including 36 page/size combinations, but native Windows integrations still need testing on a Windows PC. The executable is not Authenticode signed. Windows automatic updates, per-device mouse profiles, temperature/SMART sensors, disk benchmarking, lyrics/weather and other Mac-only tools are still pending. The release notes list the current limits.
+![WolfDock Windows quick panel rendered in headless UI tests](assets/windows-quick-panel.png)
+
+This is an early preview: 314 source/headless checks pass, including 36 page/size combinations, but native Windows integrations still need testing on a Windows PC. The executable is not Authenticode signed. Windows automatic updates, per-device mouse profiles, temperature/SMART sensors, disk benchmarking, lyrics/weather and other Mac-only tools are still pending. The release notes list the current limits.
 
 ## Checksums
 
