@@ -10,18 +10,18 @@ This public repository contains downloads and release notes. Application source 
 
 | Platform | Download | Requirements |
 | --- | --- | --- |
-| macOS | [WolfDock 1.6.9](https://github.com/sSegara/MacDock-Releases/releases/tag/v1.6.9) | Apple silicon, macOS 26 or later |
+| macOS | [WolfDock 1.6.11](https://github.com/sSegara/MacDock-Releases/releases/tag/v1.6.11) | Apple silicon, macOS 26 or later |
 | Windows preview | [WolfDock 0.1.1 for Windows](https://github.com/sSegara/MacDock-Releases/releases/tag/windows-v0.1.1) | Windows 10 22H2 / Windows 11, x64 |
 
 [Latest stable Mac release](https://github.com/sSegara/MacDock-Releases/releases/latest) · [All releases](https://github.com/sSegara/MacDock-Releases/releases)
 
 ## Mac
 
-The 1.6.9 update fixes the wolf icon taking too much menu-bar space and matches the quick panel to the main app’s blue theme. Settings use shorter labels, highlight only the selected submenu, and show Settings as a permanent section. Update checkpoints recognize both WolfDock and MacDock while preserving profiles and feature choices.
+The 1.6.11 update combines clipboard history and dropped shelf files into one Clipboard collection, groups local water tracking and reminders under Health, and puts Countdown and Focus in one Timer tab. Quick Notes has been removed. Cached file copies now continue saving after the first entry. Profiles and feature choices remain preserved through the signed update. Health is local; Apple Health synchronization is not included.
 
-For a new installation, download **WolfDock-1.6.9.dmg** and copy WolfDock into Applications. Existing MacDock/WolfDock installations can choose **Check for updates → Update** in the app. Feature choices, mouse profiles and automation profiles stay in the existing settings domain. Release checksums and the original MacDock signing identity are verified before replacement.
+For a new installation, download **WolfDock-1.6.11.dmg** and copy WolfDock into Applications. Existing MacDock/WolfDock installations can choose **Check for updates → Update** in the app. Feature choices, mouse profiles and automation profiles stay in the existing settings domain. Release checksums and the original MacDock signing identity are verified before replacement.
 
-The **MacDock-1.6.9.dmg** asset provides compatibility with older app names and updaters. Both DMGs contain the same signed app bytes. For manual replacement, choose the package matching the name already installed in Applications. Users of 1.6.3/1.6.4 need this manual replacement once, because those versions have an older update helper; versions from 1.6.5 use the corrected helper.
+The **MacDock-1.6.11.dmg** asset provides compatibility with older app names and updaters. Both DMGs contain the same signed app bytes. For manual replacement, choose the package matching the name already installed in Applications. Users of 1.6.3/1.6.4 need this manual replacement once, because those versions have an older update helper; versions from 1.6.5 use the corrected helper.
 
 Mac builds are locally signed and are not notarized. macOS may require **System Settings → Privacy & Security → Open Anyway** on the first launch. Later updates retain the original signing identity. Automatic update checks can be disabled in the Updates page; installation begins only after choosing Update.
 
