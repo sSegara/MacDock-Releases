@@ -10,16 +10,16 @@ This public repository contains downloads and release notes. Application source 
 
 | Platform | Download | Requirements |
 | --- | --- | --- |
-| macOS | [WolfDock 1.6.12](https://github.com/sSegara/MacDock-Releases/releases/tag/v1.6.12) | Apple silicon, macOS 26 or later |
-| Windows preview | [WolfDock 0.1.1 for Windows](https://github.com/sSegara/MacDock-Releases/releases/tag/windows-v0.1.1) | Windows 10 22H2 / Windows 11, x64 |
+| macOS | [WolfDock 1.6.12](https://github.com/sSegara/WOLFDOCK-RELEASE/releases/tag/v1.6.12) | Apple silicon, macOS 26 or later |
+| Windows preview | [WolfDock 0.1.1 for Windows](https://github.com/sSegara/WOLFDOCK-RELEASE/releases/tag/windows-v0.1.1) | Windows 10 22H2 / Windows 11, x64 |
 
-[Latest stable Mac release](https://github.com/sSegara/MacDock-Releases/releases/latest) · [All releases](https://github.com/sSegara/MacDock-Releases/releases)
+[Latest stable Mac release](https://github.com/sSegara/WOLFDOCK-RELEASE/releases/latest) · [All releases](https://github.com/sSegara/WOLFDOCK-RELEASE/releases)
 
 ## Mac
 
 The 1.6.12 update keeps Clipboard image previews stable through gallery refreshes, replaces Health with Reminders and removes water-volume logging. Water reminders keep configurable intervals during 08:00–22:00. The successful playback notice, weather explanation/provider footer and duplicate Keep Awake row have been removed. Keep Awake remains available through Favorites. Profiles and feature choices remain preserved through the signed update.
 
-For a new installation, download **WolfDock-1.6.12.dmg** and copy WolfDock into Applications. Existing MacDock/WolfDock installations can choose **Check for updates → Update** in the app. Feature choices, mouse profiles and automation profiles stay in the existing settings domain. Release checksums and the original MacDock signing identity are verified before replacement.
+For a new installation, download **WolfDock-1.6.12.dmg** and copy WolfDock into Applications. The distribution repository is now **WOLFDOCK-RELEASE**. Versions through 1.6.12 validate the former repository name and cannot discover updates from the renamed channel. A 1.6.13 update with migration support is being prepared and is not published yet. Once its signed installer is available, replace the matching application from its DMG once; later updates can use **Check for updates → Update** in the app again. Reinstalling 1.6.12 does not add this migration. Feature choices, mouse profiles and automation profiles stay in the existing settings domain. Release checksums and the original MacDock signing identity are verified before replacement.
 
 The **MacDock-1.6.12.dmg** asset provides compatibility with older app names and updaters. Both DMGs contain the same signed app bytes. For manual replacement, choose the package matching the name already installed in Applications. Users of 1.6.3/1.6.4 need this manual replacement once, because those versions have an older update helper; versions from 1.6.5 use the corrected helper.
 
